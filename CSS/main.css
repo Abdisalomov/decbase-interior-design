@@ -1,0 +1,82 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+	margin: 0;
+	font-family: sans-serif;
+	/* font-family: Dancing Script, cursive; */
+}
+
+a {
+	transition: all 0.3s ease-in-out;
+}
+
+.btn {
+	transition: all 0.3s ease-in-out;
+}
+
+.container {
+	width: 1040px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	/* background-color: #000000; */
+}
+
+.to-uppercase {
+	text-transform: uppercase;
+}
+
+.main-header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: white;
+	box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
+	z-index: 10;
+}
+
+.main-header__items {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(1, 15, 15);
+}
+
+.main-header__brand {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.main-header__brand img {
+	width: 120px;
+	height: 37px;
+	/* vertical-align: middle; */
+	border-style: none;
+}
+
+.main-navigation {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.main-navigation__item {
+	display: inline-block;
+	padding: 0.625rem;
+}
+
+.main-navigation__item a {
+	color: #00000080;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.75rem;
+	font-weight: 700;
+}
+
+.main-navigation__item a:hover {
+	color: #000000;
+}
+
+.main-navigation__item.active a {
+	color: #000000;
+}
