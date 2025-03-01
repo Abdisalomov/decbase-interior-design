@@ -86,3 +86,11 @@ a {
 	align-self: center;
 	border-radius: 15px 0;
 }
+
+.main-section {
+	margin-top: 250px;
+}
+
+.main-section__items {
+	display: flex;
+}
