@@ -4,8 +4,6 @@ html {
 body {
 	margin: 0;
 	font-family: sans-serif;
-	height: 2000px;
-	/* font-family: Dancing Script, cursive; */
 }
 
 a {
@@ -88,7 +86,7 @@ a {
 	border-radius: 15px 0;
 }
 
-#home {
+/* #home {
 	z-index: 1;
 	content: '';
 	bottom: -10px;
@@ -99,7 +97,7 @@ a {
 	background-image: url(https://decbase.vercel.app/assets/img/pattern.svg)
 		no-repeat top center;
 	background-repeat: no-repeat;
-}
+} */
 
 .main-section {
 	margin-top: 200px;
